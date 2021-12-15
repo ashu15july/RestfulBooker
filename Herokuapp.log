@@ -1,0 +1,317 @@
+2021-12-15 10:33:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 10:33:03  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:33:03  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:33:03  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 10:33:03  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:33:03  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:33:03  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 10:33:03  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 10:33:05  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 10:33:05  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":35,"booking":{"firstname":"Jimmy","lastname":"Browny","totalprice":112,"depositpaid":true,"bookingdates":{"checkin":"2017-01-02","checkout":"2017-01-30"},"additionalneeds":"Lunch"}}
+2021-12-15 10:33:06  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 35
+2021-12-15 10:49:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 10:49:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:49:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:49:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to get booking detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 10:49:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:49:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:49:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Getting the response for the Booking IDs from test data excel
+2021-12-15 10:50:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 10:50:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Mary","lastname":"Jones","totalprice":227,"depositpaid":false,"bookingdates":{"checkin":"2015-09-30","checkout":"2017-02-06"},"additionalneeds":"Breakfast"}
+2021-12-15 10:50:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting of response body with the data from test data excel
+2021-12-15 10:55:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 10:55:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:55:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:55:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to get booking detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 10:55:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:55:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 10:55:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Getting the response for the Booking IDs from test data excel
+2021-12-15 10:56:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 10:56:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Jim","lastname":"Wilson","totalprice":318,"depositpaid":true,"bookingdates":{"checkin":"2019-10-28","checkout":"2020-01-20"},"additionalneeds":"Breakfast"}
+2021-12-15 10:56:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting of response body with the data from test data excel
+2021-12-15 11:00:35  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:00:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 11:00:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 11:00:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to get booking detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 11:00:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 11:00:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 11:00:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Getting the response for the Booking IDs from test data excel
+2021-12-15 11:00:38  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 11:00:38  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Jim","lastname":"Wilson","totalprice":318,"depositpaid":true,"bookingdates":{"checkin":"2019-10-28","checkout":"2020-01-20"},"additionalneeds":"Breakfast"}
+2021-12-15 11:00:38  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting of response body with the data from test data excel
+2021-12-15 11:36:32  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:38:38  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:41:35  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:46:06  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:48:54  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:51:20  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:53:06  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:54:27  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:56:38  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 11:58:23  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 12:01:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 12:01:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:01:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:01:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 12:01:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:01:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:01:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 12:01:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 12:01:25  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 12:01:25  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":11,"booking":{"firstname":"Jimmy","lastname":"Browny","totalprice":112,"depositpaid":true,"bookingdates":{"checkin":"2017-01-02","checkout":"2017-01-30"},"additionalneeds":"Lunch"}}
+2021-12-15 12:01:25  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 11
+2021-12-15 12:13:43  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 12:17:26  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 12:17:27  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:17:27  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:17:27  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to get booking detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 12:17:27  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:17:27  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:17:27  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Getting the response for the Booking IDs from test data excel
+2021-12-15 12:17:29  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 12:17:29  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Sally","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2013-02-23","checkout":"2014-10-23"},"additionalneeds":"Breakfast"}
+2021-12-15 12:17:29  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting of response body with the data from test data excel
+2021-12-15 12:21:55  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to update detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) PUT update booking detail
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test for POST method for create authenticationstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Username from config file is : 
+admin
+2021-12-15 12:21:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Password from config file is : 
+password123
+2021-12-15 12:21:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 12:21:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Auth token is : 2c2c5153a93386b
+2021-12-15 12:21:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 12:21:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:21:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 12:21:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 12:21:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 12:21:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":32,"booking":{"firstname":"Sanda","lastname":"Jon","totalprice":114,"depositpaid":false,"bookingdates":{"checkin":"2018-01-03","checkout":"2018-01-05"},"additionalneeds":"Dinner"}}
+2021-12-15 12:21:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 32
+2021-12-15 12:21:59  [Herokuapp.Restful_Booker.Utilities.Log] (main:) New Booking ID created is : 32
+2021-12-15 12:22:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the PUT request to update the booking detail of booking id : 32
+2021-12-15 12:22:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 12:22:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Tarly","lastname":"Jon","totalprice":114,"depositpaid":false,"bookingdates":{"checkin":"2018-01-03","checkout":"2018-01-05"},"additionalneeds":"Dinner"}
+2021-12-15 12:55:33  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 12:55:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:55:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:55:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to get booking detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 12:55:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:55:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 12:55:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Getting the response for the Booking IDs from test data excel
+2021-12-15 12:55:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 12:55:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Sally","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2013-02-23","checkout":"2014-10-23"},"additionalneeds":"Breakfast"}
+2021-12-15 12:55:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting of response body with the data from test data excel
+2021-12-15 13:03:20  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 13:03:21  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:03:21  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:03:21  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to get booking detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 13:03:21  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:03:21  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:03:21  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Getting the response for the Booking IDs from test data excel
+2021-12-15 13:03:24  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 13:03:24  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Susan","lastname":"Jackson","totalprice":493,"depositpaid":true,"bookingdates":{"checkin":"2017-07-01","checkout":"2021-01-06"},"additionalneeds":"Breakfast"}
+2021-12-15 13:03:24  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting of response body with the data from test data excel
+2021-12-15 13:46:18  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to update detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) PUT update booking detail
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test for POST method for create authenticationstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Username from config file is : 
+admin
+2021-12-15 13:46:19  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Password from config file is : 
+password123
+2021-12-15 13:46:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 13:46:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Auth token is : b020a693de09f95
+2021-12-15 13:46:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 13:46:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 13:46:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 13:46:22  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 13:46:24  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 13:46:24  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":19,"booking":{"firstname":"Sanda","lastname":"Varys","totalprice":114,"depositpaid":false,"bookingdates":{"checkin":"2018-01-03","checkout":"2018-01-05"},"additionalneeds":"Dinner"}}
+2021-12-15 13:46:24  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 19
+2021-12-15 13:46:24  [Herokuapp.Restful_Booker.Utilities.Log] (main:) New Booking ID created is : 19
+2021-12-15 13:46:24  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the PATCH request to partially update the booking detail of booking id : 19
+2021-12-15 13:46:25  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 13:46:25  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"sam","lastname":"Varys","totalprice":114,"depositpaid":false,"bookingdates":{"checkin":"2018-01-03","checkout":"2018-01-05"},"additionalneeds":"Dinner"}
+2021-12-15 15:09:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 15:09:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:09:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:09:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to ping applicationstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:09:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:09:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:09:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Ping to application
+2021-12-15 15:09:38  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 201 as this is a ping request
+2021-12-15 15:27:38  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 15:27:39  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:27:39  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:27:39  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:27:39  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:27:39  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:27:39  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 15:27:39  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 15:27:41  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:27:41  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":30,"booking":{"firstname":"Jimmy","lastname":"Browny","totalprice":112,"depositpaid":true,"bookingdates":{"checkin":"2017-01-02","checkout":"2017-01-30"},"additionalneeds":"Lunch"}}
+2021-12-15 15:27:42  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 30
+2021-12-15 15:28:33  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 15:28:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:28:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:28:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:28:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:28:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:28:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 15:28:34  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 15:28:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:28:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":31,"booking":{"firstname":"Jimmy","lastname":"Browny","totalprice":112,"depositpaid":true,"bookingdates":{"checkin":"2017-01-02","checkout":"2017-01-30"},"additionalneeds":"Lunch"}}
+2021-12-15 15:28:36  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 31
+2021-12-15 15:30:48  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 15:30:49  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:49  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:49  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:30:49  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:49  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:49  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 15:30:49  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 15:30:51  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:30:51  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":55,"booking":{"firstname":"Jimmy","lastname":"Browny","totalprice":112,"depositpaid":true,"bookingdates":{"checkin":"2017-01-02","checkout":"2017-01-30"},"additionalneeds":"Lunch"}}
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 55
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to delete booking detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test for POST method for create authenticationstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Username from config file is : 
+admin
+2021-12-15 15:30:52  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Password from config file is : 
+password123
+2021-12-15 15:30:53  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:30:53  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Auth token is : f90ef6026ddeb79
+2021-12-15 15:30:53  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:53  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:53  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:30:53  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:53  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:53  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 15:30:53  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 15:30:54  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:30:54  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":56,"booking":{"firstname":"Sanda","lastname":"Jon","totalprice":114,"depositpaid":false,"bookingdates":{"checkin":"2018-01-03","checkout":"2018-01-05"},"additionalneeds":"Dinner"}}
+2021-12-15 15:30:54  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 56
+2021-12-15 15:30:54  [Herokuapp.Restful_Booker.Utilities.Log] (main:) New Booking ID created is : 56
+2021-12-15 15:30:54  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Booking ID to be deleted is : 56
+2021-12-15 15:30:54  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the GET request for a specific booking id and receiving the response
+2021-12-15 15:30:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 201 as this is a Delete request
+2021-12-15 15:30:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Created
+2021-12-15 15:30:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to get booking detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:30:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:56  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Getting the response for the Booking IDs from test data excel
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Sally","lastname":"Jackson","totalprice":891,"depositpaid":false,"bookingdates":{"checkin":"2018-09-15","checkout":"2021-08-21"}}
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting of response body with the data from test data excel
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to update detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) PUT update booking detail
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test for POST method for create authenticationstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Username from config file is : 
+admin
+2021-12-15 15:30:57  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Password from config file is : 
+password123
+2021-12-15 15:30:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:30:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Auth token is : 2f9aff4d5da03a0
+2021-12-15 15:30:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:30:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:30:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 15:30:58  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 15:31:00  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:31:00  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":57,"booking":{"firstname":"Sanda","lastname":"Varys","totalprice":114,"depositpaid":false,"bookingdates":{"checkin":"2018-01-03","checkout":"2018-01-05"},"additionalneeds":"Dinner"}}
+2021-12-15 15:31:00  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 57
+2021-12-15 15:31:00  [Herokuapp.Restful_Booker.Utilities.Log] (main:) New Booking ID created is : 57
+2021-12-15 15:31:00  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the PATCH request to partially update the booking detail of booking id : 57
+2021-12-15 15:31:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:31:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"sam","lastname":"Varys","totalprice":114,"depositpaid":false,"bookingdates":{"checkin":"2018-01-03","checkout":"2018-01-05"},"additionalneeds":"Dinner"}
+2021-12-15 15:31:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to ping applicationstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:31:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:01  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Ping the application
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 201 as this is a ping request
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to update detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) PUT update booking detail
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test for POST method for create authenticationstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Username from config file is : 
+admin
+2021-12-15 15:31:02  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Password from config file is : 
+password123
+2021-12-15 15:31:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:31:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Auth token is : 4c7f9b8c61bac17
+2021-12-15 15:31:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to create new detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:31:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:31:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Posting a new booking detail
+2021-12-15 15:31:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the POST request to create new booking
+2021-12-15 15:31:06  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:31:06  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"bookingid":58,"booking":{"firstname":"Sanda","lastname":"Jon","totalprice":114,"depositpaid":false,"bookingdates":{"checkin":"2018-01-03","checkout":"2018-01-05"},"additionalneeds":"Dinner"}}
+2021-12-15 15:31:06  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Retrieved booking id : 58
+2021-12-15 15:31:06  [Herokuapp.Restful_Booker.Utilities.Log] (main:) New Booking ID created is : 58
+2021-12-15 15:31:07  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Sending the PUT request to update the booking detail of booking id : 58
+2021-12-15 15:31:08  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:31:08  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Tarly","lastname":"Jon","totalprice":114,"depositpaid":false,"bookingdates":{"checkin":"2018-01-03","checkout":"2018-01-05"},"additionalneeds":"Dinner"}
+2021-12-15 15:36:04  [Herokuapp.Restful_Booker.Utilities.Log] (main:) The base URI is : https://restful-booker.herokuapp.com
+2021-12-15 15:36:05  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:36:05  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:36:05  [Herokuapp.Restful_Booker.Utilities.Log] (main:) $$$$$$$$$$$$$$$$$$$$$ Test case Starting the test to get booking detailsstarted.      $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-12-15 15:36:05  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:36:05  [Herokuapp.Restful_Booker.Utilities.Log] (main:) ****************************************************************************************
+2021-12-15 15:36:05  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Getting the response for the Booking IDs from test data excel
+2021-12-15 15:36:07  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting the response if the status code returned is 200
+2021-12-15 15:36:07  [Herokuapp.Restful_Booker.Utilities.Log] (main:) {"firstname":"Mark","lastname":"Ericsson","totalprice":613,"depositpaid":true,"bookingdates":{"checkin":"2015-03-01","checkout":"2019-07-24"},"additionalneeds":"Breakfast"}
+2021-12-15 15:36:07  [Herokuapp.Restful_Booker.Utilities.Log] (main:) Asserting of response body with the data from test data excel
